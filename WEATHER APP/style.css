@@ -1,0 +1,56 @@
+*{margin: 0%;
+padding: 0;}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.weather_container{
+
+}*/
+
+.tempreture{
+    font-size: 4.5rem;
+}
+
+.time_location{
+    font-size: 2rem;
+}
+.weather_icon{
+    margin: 0.5rem;
+    margin-left: 0.2rem;
+}
+
+nav{
+    height: 100px;
+margin: 5rem;}
+
+.search_city{ 
+padding: 1rem 0;
+outline: none;
+border: none;
+color: black;
+background-color: transparent;
+font-size: 1.1rem;
+border-bottom:  2px solid black;
+width: 98%;
+
+}
+
+nav form button{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    outline: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50px;
+    border-style: hidden;
+}
